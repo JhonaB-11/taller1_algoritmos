@@ -51,6 +51,7 @@ print(list8)
 
 pal = "palabra"
 contP = 0
+contL = 0
 for i in range(0,len(pal)):
     for j in range(0,len(pal)):
         if j+1 > len(pal):    
@@ -60,6 +61,18 @@ for i in range(0,len(pal)):
                 break
 print("Hay letras repetidas")
 
+#cuenta elementos de una lista o string
+#entrada=input("Introduce una Palabra o Texto: ")
+pal = 'palabra'
+palabra={}
+ 
+for i in pal:
+    if i in palabra:
+        palabra[i]=palabra[i]+1
+    else:
+        palabra[i]=1
+ 
+print(palabra)
 
 
     
