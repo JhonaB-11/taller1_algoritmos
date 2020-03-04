@@ -63,7 +63,7 @@ print("Hay letras repetidas")
 
 #cuenta elementos de una lista o string
 #entrada=input("Introduce una Palabra o Texto: ")
-pal = 'palabra'
+pal = 'roto'
 palabra={}
  
 for i in pal:
@@ -73,6 +73,8 @@ for i in pal:
         palabra[i]=1
  
 print(palabra)
+
+
 
 
     
